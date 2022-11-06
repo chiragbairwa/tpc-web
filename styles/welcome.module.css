@@ -1,0 +1,11 @@
+.welcome {
+  height: 400vh;
+}
+
+.welcomeBanner {
+  height: 200px;
+  background: #000;
+}
+.welcomeBanner > h2 {
+  margin-top: 0;
+}
