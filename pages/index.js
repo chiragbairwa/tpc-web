@@ -2,6 +2,7 @@ import Head from "next/head";
 import AboutUs from "../components/aboutus";
 import Header from "../components/header";
 import Welcome from "../components/welcome";
+import Recruit from "../components/recruit";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Welcome />
         <AboutUs />
+        <Recruit />
       </main>
       {/* <footer >
       </footer> */}

@@ -1,6 +1,5 @@
 .aboutus {
     display: flex;
-    /* justify-content: space; */
     padding: 0 5rem;
     column-gap: 6rem;
 }
