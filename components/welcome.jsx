@@ -1,16 +1,37 @@
-import styles from '../styles/welcome.module.css'
-import Image from 'next/image'
+import styles from "../styles/welcome.module.css";
+import Image from "next/image";
 
 const Welcome = () => {
   return (
     <div className={styles.welcome}>
-      {/* <Image src="/logo.webp" width="80" height="80" /> */}
+      {/* BANNER */}
       <div className={styles.welcomeBanner}>
-        <h2>Lorem ipsum dolor,</h2>
-        <h2>Lorem ipsum dolor,</h2>
+        <h2>DCSA Department</h2>
+        <h2>Panjab University</h2>
+      </div>
+
+      {/* Hero Page */}
+      <div className={styles.welcomeContent}>
+        <div>
+          <h1>Placement Portal</h1>
+          <p>
+            Passion is the difference between having a job or having a career.
+          </p>
+          {/* Button */}
+          <a href="#" className={styles.welcomeCtaBtn}>
+            <label>Placement Brocure</label>
+            <Image
+              src="/downloadIcon.svg"
+              width="24"
+              height="24"
+              alt="download icon"
+            />
+          </a>
+        </div>
+        <Image src="/hero.svg" width="550" height="550" alt="TeamWork" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Welcome
+export default Welcome;

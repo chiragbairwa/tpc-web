@@ -1,11 +1,43 @@
 .welcome {
-  height: 400vh;
+  height: 90vh;
 }
 
 .welcomeBanner {
-  height: 200px;
+  height: 150px;
   background: #000;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .welcomeBanner > h2 {
   margin-top: 0;
+}
+
+.welcomeContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.welcomeCtaBtn {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  border-radius: 8px;
+}
+.welcomeCtaBtn:hover{
+  background-color: cadetblue;
+  color: white;
+}
+.welcomeCtaBtn > label {
+  cursor: pointer;
+}
+
+
+.welcomeContent > img {
+  margin-top: -2rem;
 }

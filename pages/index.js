@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Header from '../components/header'
-import Welcome from '../components/welcome'
+import Head from "next/head";
+import AboutUs from "../components/aboutus";
+import Header from "../components/header";
+import Welcome from "../components/welcome";
 
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
       <Header />
       <main>
         <Welcome />
+        <AboutUs />
       </main>
-
       {/* <footer >
       </footer> */}
     </div>
-  )
+  );
 }
