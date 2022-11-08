@@ -1,8 +1,8 @@
 const Recruit = () => {
-  const Card = ()=>  <div className="recruit-card"></div>;
+  const Card = () => <div className="recruit-card"></div>
 
   return (
-    <div className="recruit">
+    <div className="recruit" id="whyus">
       {/* Banner */}
       <div className="recruit-banner">
         <h2>Why Recruit at DCSA, Panjab University?</h2>
@@ -18,7 +18,7 @@ const Recruit = () => {
         <Card />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Recruit;
+export default Recruit

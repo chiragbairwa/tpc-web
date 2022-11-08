@@ -1,20 +1,39 @@
+import Image from 'next/image'
+
 const PastRecruit = () => {
-    const Card = ()=>  <div className="recruit-card"></div>;
-  
-    return (
-      <div className="recruit">
-        {/* Banner */}
-        <div className="past-recruit-banner">
-          <h2>Why Recruit at DCSA, Panjab University?</h2>
-        </div>
-  
-        {/* Cards */}
-        <div className="past-recruit-card-container">
-          <Card />
-        </div>
+  const Logo = (props) => (
+    <Image src={props.src} width="150" height="80" alt="Logo" />
+  )
+
+  return (
+    <div className="past-recruit" id="pastrecruit">
+      {/* Banner */}
+      <div className="past-recruit-banner">
+        <h2>Why Recruit at DCSA, Panjab University?</h2>
       </div>
-    );
-  };
-  
-  export default PastRecruit;
-  
+
+      <div className="past-recruit-card-container">
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+        <Logo src="/vercel.svg" />
+      </div>
+    </div>
+  )
+}
+
+export default PastRecruit

@@ -1,6 +1,5 @@
 import styles from '../styles/header.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -15,25 +14,25 @@ const Header = () => {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <Link href="#">Home</Link>
+            <a href="#">Home</a>
           </li>
           <li>
             <a href="#aboutus">About Us</a>
           </li>
           <li>
-            <Link href="#">Why Us</Link>
+            <a href="#whyus">Why Us</a>
           </li>
           <li>
-            <Link href="#">Past Recruiters</Link>
+            <a href="#pastrecruit">Past Recruiters</a>
           </li>
           <li>
-            <Link href="#">Placement Record</Link>
+            <a href="#">Placement Record</a>
           </li>
           <li>
-            <Link href="#">Infrastructure</Link>
+            <a href="#">Infrastructure</a>
           </li>
           <li>
-            <Link href="#">Contact Us</Link>
+            <a href="#">Contact Us</a>
           </li>
         </ul>
       </nav>

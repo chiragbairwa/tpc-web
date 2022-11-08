@@ -1,5 +1,5 @@
-import styles from "../styles/welcome.module.css";
-import Image from "next/image";
+import styles from '../styles/welcome.module.css'
+import Image from 'next/image'
 
 const Welcome = () => {
   return (
@@ -7,6 +7,13 @@ const Welcome = () => {
       {/* BANNER */}
       <div className={styles.welcomeBanner}>
         <h2>DCSA Department</h2>
+        <Image
+          src="/logo.webp"
+          width="100"
+          height="100"
+          color="white"
+          alt="DCSA Logo"
+        />
         <h2>Panjab University</h2>
       </div>
 
@@ -19,7 +26,7 @@ const Welcome = () => {
           </p>
           {/* Button */}
           <a href="#" className={styles.welcomeCtaBtn}>
-            <label>Placement Brocure</label>
+            <label>Placement Brochure</label>
             <Image
               src="/downloadIcon.svg"
               width="24"
@@ -28,10 +35,16 @@ const Welcome = () => {
             />
           </a>
         </div>
-        <Image src="/hero.svg" width="550" height="550" alt="TeamWork" />
+        <Image
+          src="/hero.svg"
+          width="550"
+          height="550"
+          alt="TeamWork"
+          priority="true"
+        />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Welcome;
+export default Welcome

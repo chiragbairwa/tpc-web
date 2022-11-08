@@ -1,0 +1,107 @@
+.past-recruit {
+  margin-top: 3rem;
+}
+.past-recruit-banner {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0 3rem;
+  border-radius: 8px;
+}
+
+.past-recruit-banner > h2 {
+  margin: 0;
+}
+
+.past-recruit-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Stats */
+.statistics {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+}
+
+.stats-banner {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 8px;
+}
+
+.stats-banner > h2 {
+  margin: 0;
+}
+
+.msg-from-cp {
+  margin: 1rem 5rem;
+}
+
+.msg-from-cp > h2 {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  text-align: right;
+
+  margin-bottom: 0;
+}
+
+.msg-from-cp > div {
+  background-color: rgb(202, 196, 196);
+  display: flex;
+  column-gap: 3rem;
+}
+.msg-from-cp > div > p {
+  margin-top: 0;
+  padding: 2rem;
+}
+
+.msg-from-cp > div > div {
+  background-color: grey;
+  padding: 2rem;
+  text-align: center;
+}
+.msg-from-cp > div > div > img {
+  background-color: #121212;
+}
+
+/* Contact Us */
+
+.contact-card-container {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.contact-card {
+  padding: 0 2rem;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.footer {
+  margin-top: 2rem;
+  background-color: aquamarine;
+  padding: 8px 3rem 1rem 3rem;
+}
+
+.footer-container-down {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-subsection-heading {
+  margin-bottom: 1rem;
+}

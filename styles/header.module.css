@@ -17,13 +17,13 @@
 }
 
 .navbar > ul > li {
-  cursor: pointer;
   padding: 4px 8px;
+  cursor: pointer;
   border: 1px solid transparent;
+  transition: border 0.2s linear;
 }
 
 .navbar > ul > li:hover {
-  color: aqua;
-  border-radius: 8px;
-  border-color: aqua;
+  color: blue;
+  border-bottom: 1px solid currentColor;
 }

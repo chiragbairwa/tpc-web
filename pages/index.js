@@ -1,8 +1,11 @@
-import Head from "next/head";
-import AboutUs from "../components/aboutus";
-import Header from "../components/header";
-import Welcome from "../components/welcome";
-import Recruit from "../components/recruit";
+import Head from 'next/head'
+import AboutUs from '../components/aboutus'
+import Header from '../components/header'
+import Welcome from '../components/welcome'
+import Recruit from '../components/whyus'
+import PastRecruit from '../components/pastrecruiter'
+import Stats from '../components/stats'
+import ContactUs from '../components/contactus'
 
 export default function Home() {
   return (
@@ -18,9 +21,12 @@ export default function Home() {
         <Welcome />
         <AboutUs />
         <Recruit />
+        <PastRecruit />
+        <Stats />
+        <ContactUs />
       </main>
       {/* <footer >
       </footer> */}
     </div>
-  );
+  )
 }
