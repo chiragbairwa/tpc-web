@@ -15,12 +15,30 @@
     display: grid;
     place-content: center;
     grid-template-columns: auto auto auto;
-    gap: 3rem 6rem;
+    gap: 3rem;
 }
 .recruit-card {
-    width: 350px;
-    height: 400px;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    width: 330px;
     border-radius: 8px;
 
-    border: 1px solid #121212;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 2px 20px 0px;
 }
+.recruit-card > p{
+    text-align:left;
+}
+
+.recruit-card > div{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+    padding: 1rem ;
+    border-radius: 80px;
+
+    width: fit-content;
+    margin: 0 auto;
+
+}
+

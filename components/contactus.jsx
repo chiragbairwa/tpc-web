@@ -101,7 +101,7 @@ const ContactUs = () => {
         </div>
 
         <div className="footer-credits" align="center">
-          Copyright © 2022 DCSA-PU.
+        Copyright © 2022 DCSA-Panjab University. Developed by <a href="https://linkedin.com/in/chiragbairwa">Chirag</a>.
         </div>
       </div>
     </div>
